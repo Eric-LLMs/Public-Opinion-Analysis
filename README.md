@@ -52,10 +52,10 @@ Returns JSON:
 Example:
 
 ```
-GET http://127.0.0.1:8330/isValidOpinion?query=You stupid idiot, what the hell are you talking about
+GET http://127.0.0.1:8330/isValidOpinion?query=The food at this restaurant is really bad and the service is extremely slow, definitely not worth the money
 ```
 
-(This is an abusive comment, which the model classifies as **not** a valid opinion.)
+(This is a negative review, which the model classifies as a valid opinion.)
 
 ## Model
 
