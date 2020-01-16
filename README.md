@@ -52,10 +52,10 @@ Returns JSON:
 Example:
 
 ```
-GET http://127.0.0.1:8330/isValidOpinion?query=The food at this restaurant is really bad and the service is extremely slow, definitely not worth the money
+GET http://127.0.0.1:8330/isValidOpinion?query=快递显示签收三天了，但是东西到现在还没收到
 ```
 
-(This is a negative review, which the model classifies as a valid opinion.)
+(这条表达的是负面体验,但没有出现明显的负面词汇,模型会将其判定为有效舆情。)
 
 ## Model
 
