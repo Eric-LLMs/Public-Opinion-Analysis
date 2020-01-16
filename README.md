@@ -44,7 +44,7 @@ Returns JSON:
 ```json
 {
   "isValid": "0 or 1",
-  "score": "predicted probability",
+  "score": "0.83",
   "query": "original text"
 }
 ```
@@ -54,8 +54,6 @@ Example:
 ```
 GET http://127.0.0.1:8330/isValidOpinion?query=快递显示签收三天了，但是东西到现在还没收到
 ```
-
-(这条表达的是负面体验,但没有出现明显的负面词汇,模型会将其判定为有效舆情。)
 
 ## Model
 
